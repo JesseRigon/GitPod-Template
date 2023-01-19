@@ -5,6 +5,9 @@ ports:
     visibility: private
     onOpen: ignore
 
+tasks:
+  - command: echo ${GITPOD_REPO_ROOTS}
+
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
@@ -16,4 +19,4 @@ github:
 #  - url: ProjectURL
 #    checkoutLocation: ProjectDir
     
-workspaceLocation: .
+workspaceLocation: ${GITPOD_REPO_ROOTS}/main.code-workspace
