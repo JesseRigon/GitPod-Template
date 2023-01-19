@@ -10,10 +10,10 @@ github:
     # enable for the master/default branch (defaults to true)
     master: false
 
-additionalRepositories:
-  - url: DotfilesURL
-    checkoutLocation: .dotfiles
-  - url: ProjectURL
-    checkoutLocation: ProjectDir
+#additionalRepositories:
+#  - url: DotfilesURL
+#    checkoutLocation: .dotfiles
+#  - url: ProjectURL
+#    checkoutLocation: ProjectDir
     
 workspaceLocation: $GITPOD_REPO_ROOT/main.code-workspace
