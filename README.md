@@ -10,7 +10,7 @@ For Example if you set up the template the folder structure under /workspace in 
   - GitPod-Template
     - .git
     - .gitpod.yml
-    - main.work-spaces
+    - main.code-workspace
     
   - ProjectDir
     - .git
