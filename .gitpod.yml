@@ -16,4 +16,4 @@ github:
 #  - url: ProjectURL
 #    checkoutLocation: ProjectDir
     
-workspaceLocation: "${GITPOD_REPO_ROOTS}/main.code-workspace"
+workspaceLocation: .
